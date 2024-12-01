@@ -1,0 +1,199 @@
+#Top{
+    text-align: center;
+    padding: 10px 10px;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 8px;
+    height: 220px;
+    position: relative;
+    background-image: url(../img/background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+header>h1{
+    font-size: 350%;
+    text-shadow: 0 0 20px black;
+    color: #f1dedd;
+}
+
+header>h4{
+    text-shadow: 0 0 10px white;
+    color: black;
+}
+
+header>nav{
+    font-size: 25px;
+    text-align: bottom;
+    position: static;
+    background-color: #989494;
+    color: white;
+
+}
+
+body{
+    background-color: grey;
+}
+
+header #logo{
+    height: 142px;
+    width: 100px;
+    position: absolute; 
+    left: 10px;
+    top: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin: 10px;
+}
+
+#EventDetails{
+    position: relative;
+    font-style: normal;
+    text-align: center;
+    background-color: #989494;
+    margin: 0;
+    margin-top: 7px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px black;
+    padding: 4px;
+    padding-top: 7px;
+}
+
+#EventDetails>h2{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#EventDetails>address{
+    color: #f1dedd;
+    padding: 1;
+    font-size: 20px;
+}
+
+#Guests{
+    position: relative;
+    padding-top: 7px;
+    margin-top: 7px;
+    background-color: #989494;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow:0 0 10px black;
+    height: 270px;
+    clear: both;
+}
+
+#Guests>h2{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#Guests img{
+    position: relative;
+    float: left;
+    height: 202px;
+    width: 152px;
+    margin-right: 10px;
+}
+#Guests aside{
+    text-align: left;
+}
+
+#Guests div:hover{
+    box-shadow: 0px 0px 10px;
+}
+
+.Speakers{
+    float: left;
+    margin-left: 10px;
+    position: relative;
+    border-radius: 8px;
+    width: 300px;
+    overflow: auto;
+    background-color: white;
+}
+
+#Guests1{
+    margin-left: 16%;
+}
+
+
+#Guests4{
+    margin-right: 16%;
+}
+
+#Gallery{
+    text-align: center;
+    background-color: #989494;
+    margin: 0px;
+    margin-top: 7px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px black;
+    padding: 4px;
+    padding-top: 7px;
+}
+
+#Gallery>h2{
+    text-align: center;
+}
+
+#Gallery img{
+    position: relative;
+    width: 240px;
+    height: 135px;
+    border-radius: 8px;
+}
+
+#Gallery img:hover{
+    box-shadow: 0px 0px 5px black;
+}
+
+#Testimonies{
+    margin-top: 7px;
+    position: relative;
+    background-color: #989494;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px black;
+    text-align: center;
+    overflow: auto;
+    padding-bottom: 10px;
+}
+
+#Testimonies div{
+    padding-right: 20px;
+}
+
+#Testimonies img{
+    position: relative;
+    float: left;
+    height: 202px;
+    width: 152px;
+    margin-right: 10px;
+}
+
+.Testimonies{
+    float: left;
+    margin-left: 10px;
+    position: relative;
+    border-radius: 8px;
+    width: 300px;
+    overflow: auto;
+    background-color: white;
+}
+
+#Testimony1{
+    margin-left: 24%;
+}
+
+#Map{
+    background-color: #989494;
+    margin: 0px;
+    margin-top: 7px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px black;
+    padding: 4px;
+    padding-top: 7px;
+    text-align: center;
+}
