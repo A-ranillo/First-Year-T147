@@ -1,0 +1,2 @@
+touch f2_fri_8am.txt
+mkdir f2_fri_8am

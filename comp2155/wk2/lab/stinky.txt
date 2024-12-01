@@ -1,0 +1,1 @@
+Name=stinky,Price= 12.0, Payment Type - credit,Payment Given - 20.0
