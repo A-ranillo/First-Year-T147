@@ -1,1 +1,0 @@
-router ospf 1net 0.0.0.0 0.0.0.0 area 0distance 110default-information originate always
