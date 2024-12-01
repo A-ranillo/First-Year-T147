@@ -1,0 +1,5 @@
+user1 = input("input 1: ")
+user2 = input("input 2: ")
+user3 = input("input 3: ")
+is_tuple = (user1, user2, user3)
+print(is_tuple)
