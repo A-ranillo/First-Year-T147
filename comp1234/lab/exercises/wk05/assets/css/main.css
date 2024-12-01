@@ -1,0 +1,33 @@
+{
+margin:1.5em; /*default parent font size 16px*1.5 =24px*/
+/*h1 is 200% font size 16*2=32*/
+/*32*1.5=48px*/
+margin:10px;
+}
+
+body{
+    background-color: rgb(224, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,h2{
+    border: 2px solid green;
+}
+
+ul>li:first-child{
+    color: red;
+}
+
+ul>li:last-child{
+    color: blue;
+}
+
+p::first-letter{
+    color: #8A2BE2FF;
+    font-size: 200%;
+}
+
+.header{
+    font-size: 200%;
+    text-shadow: 3px 2px 3px orange;
+}

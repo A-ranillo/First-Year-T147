@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3-Col Fluid</title>
+</head>
+
+<style>
+
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        background-color: lightcyan;
+        border: 2px solid black;
+        width: 60%;
+        margin: 15px auto;
+    }
+
+    header{
+        border-bottom: 2px solid green;
+    }
+    footer{
+        border-top: 2px solid green;
+    }
+    #sidebarA{
+        border-right: 2px solid red;
+        float: left;
+        height: 350px;
+        width: 20%;
+        min-width: 86px;
+    }
+    #sidebarB{
+        border-left: 2px solid red;
+        float: right;
+        height: 350px;
+        width: 20%;
+        min-width: 86px;
+    }
+    main{
+        height: 350px;
+        width: 600%;
+        float: left;
+        box-sizing: border-box;
+        overflow: auto;
+        min-width: 240px;
+    }
+
+
+    
+</style>
+
+
+<body>
+    <header>
+        <h2>Header</h2>
+    </header>
+
+    <aside id="sidebarA">
+        <h2>Sidebar A</h2>
+    </aside>
+
+<main>
+    <h2>Main content</h2>
+    <p>HOver over this with mouse Cursor</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis molestias aspernatur dicta, quia autem deleniti tempore adipisci deserunt iusto veniam doloremque ullam dolore enim? Quidem architecto reprehenderit itaque odit atque?</p>
+</main>
+
+<aside id="sidebarB">
+    <h2>SidebarB</h2>
+</aside>
+
+<footer>
+    <h2>footer</h2>
+</footer>
+
+<script src="https://my.gblearn.com/js/loadscript.js"></script>
+
+
+</body>
+</html>

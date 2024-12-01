@@ -1,0 +1,17 @@
+html{
+    background-color: lightyellow;
+}
+
+table, td{
+    border: 1px solid;
+    padding: 10px;
+    border-spacing: 5px;
+}
+
+td{
+    text-align: left;
+    height: 5px;
+    width: 40px;
+    vertical-align: bottom;
+
+}

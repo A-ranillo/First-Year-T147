@@ -1,0 +1,177 @@
+/* em is a unit of measurement. It indicates size relative to the size of the font. */
+/* lem means "equal to the current font size, 2em means 2 times the currentl font size */
+/* e. g. in a 2em unit of measurement, if your font size is 11px (11pixels), then 2em equal 22 pixels. */
+
+/* Pixel, or px are one of the most command length of unit in CSS. */
+/* In CSS, 1 pixel is formally defined a 1% of an inch. */
+/* All other absolute length units are based on this definition of a pixel. */
+
+body{
+    background-color: tan;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.loremp{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+#lorem{
+    font-size: 150%;
+    color: #0000ff;
+}
+
+h3,h4, h4+ol{
+    border: 1px solid red;
+}
+
+section p{
+    background-color: yellow;
+}
+
+section h2+p{
+    background-color: pink;
+}
+
+a[href="https://my.gblearn.com/"]{
+    border: 2px dotted red;
+}
+
+a[href="template.html"]:hover, a[href="template.html"]:focus{
+    border: 4px dotted red;
+}
+
+#lorem::first-letter{
+    font-size: 180%;
+    color: green;
+}
+
+ol li:first-child{
+    color: red;
+}
+
+ol li:last-child{
+    color: blue;
+}
+
+header>h1{
+    font-size: 350%;
+    text-shadow: 4px 3px 4px blue;
+    color: purple;
+}
+
+#wrapper{
+    background-color: tan;
+    margin: 5em auto; /* auto means browser selects suitable margin */
+    border: 3px solid purple;
+    width: 1024px;
+}
+
+h2, h3, h4, h5, h6{
+    color: purple;
+    border-bottom: 2px groove ivory;
+}
+
+header, main, footer{
+    border: 5px dashed blue;
+    padding: 5em;
+    margin: 1.5em;
+}
+
+header{
+    text-align: center;
+    background-image: url("../img/rsz_pexels-alexander-popovkin-127845384.jpg");
+    background-size: cover;
+}
+
+.button{
+    text-decoration: none;
+    border: 4px solid purple;
+    padding: 8px ;
+    border-radius: 20px;
+    background-image: linear-gradient(rebeccapurple, violet);
+    color: bisque;
+    box-shadow: 4px 4px 6px blue;
+}
+
+figure{
+    overflow: auto;
+}
+
+figure>img{
+    width: 864px;
+    border: 10px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+aside, nav{
+    padding: .5em;
+    margin: .25em;
+}
+
+nav{
+    width: 25%;
+    float: left;
+    text-align: center;
+
+}
+
+aside{
+    float:right;
+    text-align: center;
+}
+
+article{
+    clear: both; /* clear property sets whether an elemetn most be moved below elements that precade it*/
+    column-count: 3;
+    column-gap: 2em;
+    column-rule: 2px groove ivory;
+}
+
+article>h3{
+    column-span: all; /* span across all columns */
+}
+
+#logo{
+    width: 100px;
+    position: absolute; /* posible ppty how an element in positioned in a doc, static, relative, absolute, stinky, fixed */
+    left: 10px;
+    top: 10px;
+}
+
+header{
+    position: relative;
+}
+
+@font-face {
+    font-family: asidefont;
+    src: url("../fonts/Newsreader-Regular.ttf");
+}
+
+aside{
+    font-family: assidefont, sans-serif;
+}
+
+header{
+    font-family: 'ranchers, cursive';
+    background-position: center;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li a{
+    display:block;
+    padding: 8px 16px;
+    margin: 12px;
+}
+
+nav li a.button:hover, nav li a.button:focus{
+    border-color: white;
+    color:black;
+}

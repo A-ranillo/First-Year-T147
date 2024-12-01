@@ -1,0 +1,59 @@
+{
+    margin: 0; /* removes default 8px margin on page */
+    padding: 0; /* removes padding on page */
+    box-sizing: content-box; /* allows to include padding and border on an element */
+}
+
+html{
+    margin: 20px 20px 20px 20px;
+}
+
+.items img{
+    margin-right: auto;
+}
+
+.container{
+    list-style: none;
+    display: flex;
+    overflow: hidden;
+    background-color:#333;
+    margin: 5px 0px 0px 5px;
+    width: 81.25%;
+    height: 50px;
+}
+
+#S1 ul{
+    padding: 20px 20px 20px;
+}
+
+.items{
+    padding: 30px 10px 10px;
+    font-size: 20px;
+}
+
+.items a{
+    text-decoration: none;
+    color: white;
+}
+
+.items a:hover{
+color: #f8b281;
+}
+
+li:nth-child(odd) {
+    color: #777;
+}
+
+li:nth-child(even) {
+    color: blue;
+}
+
+#S1 ul{
+    list-style-type: none;
+    width: 81.25%;
+    border: 2px solid;
+}
+
+.items img{
+    margin: 0 0 3px 3px;
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>How to layout a web page using float for week 06 lab</title>
+    <meta name="description" content="This is a float layout web page. We will learn about aside, article semantic
+    element, float property, position of elements, and fonts.">
+    <meta name="keywords" content="week 6, lab, float, columns, position, fonts">
+    <meta name="author" content="Your Name">
+    <link rel="shortcut icon" href="assets/img/favicon6.ico">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+
+    <style>
+        body{
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body style="background-color: lightgray">
+<!-- This is where you put your HTML content... -->
+<div id="wrapper">
+    <header>  <!-- element specifies a header for a document or section -->
+        <img src="assets/img/gbc_logo1.jpg" alt="gbc logo" id="logo">
+        <h1>Block and inline elements</h1>
+    </header>
+    <main>  <!-- unique content, should not contain content repeated across documents e.g. sidebars -->
+        <nav>
+            <!--                <p>-->
+            <!--                    <a class="button" href="#footer">Footer Section</a>-->
+            <!--                </p>-->
+            <!--                <p><a class="button" href="#lorem">Lorem Ipsum Section</a></p>-->
+            <ul>
+                <li><a class="button" href="#footer">Footer Section</a></li>
+                <li><a class="button" href="#lorem">Lorem Ipsum Section</a></li>
+                <li><a class="button" href="#images">Image Section</a></li>
+                <li><a class="button" href="/index.html">My intro page</a></li>
+            </ul>
+        </nav>
+
+        <aside>  <!-- Both div and aside tags have the same behavior with a different meaning. --> 
+                 <!-- <div> defines or creates division or section in the web page. -->
+                 <!-- <aside> does the same thing by creating a section or division but it contains only the content related to the main web page -->
+            <p>This is just plain text. Also, this is a block element.</p>
+            <p>This is a block element with a <strong>bold</strong> inline element.</p>
+            <p>This is a block element with a <strong><em>bold and italic</em></strong> inline element.</p>
+
+            <p>This is a pre tag used to allow white space.</p>
+            <pre> <!-- tag for preformatted text, displayed in fixed-width font, preserves spaces and line breaks -->
+                var today = new Date();
+                document.writeln( today.getFullYear() );
+            </pre>
+            <p>How to contact &lt;Your Name&gt; &commat; George Brown College</p>
+            <address>  <!-- defines contact information -->
+                George Brown College - Casa Loma Campus<br>
+                146 Kendal Ave, Toronto, Ontario<br>
+                M5R 1M3<br>
+                <a href="mailto:firstname.lastname@georgebrown.ca">firstname.lastname@georgebrown.ca</a>
+            </address>
+            <br>
+            <hr>
+            <br>
+            <section> <!-- element used to divide web page into standalone sections of related content -->
+                <h2>Attributes</h2>
+                <p class="classatt">This class attribute identifies more than one tag to be grouped for use with
+                    CSS, javascript, etc...</p>
+                <p id="idatt">An ID attribute allows a unique name to be given to one tag for use with CSS,
+                    javascript, etc...</p>
+            </section>
+            <br>
+            <hr>
+            <br>
+
+            <h3>Character Entities</h3>
+            <p>This is a registered trademark symbol &reg;.</p>
+            <p>This is a copyright symbol &copy;.</p>
+
+            <br>
+            <hr>
+            <br>
+            <h3>Links</h3>
+            <a href="https://my.gblearn.com/">My GBlearn</a>
+            <p>
+                One of the best site to get information about HTML and CSS is
+                <a href="https://www.w3schools.com/index.html" target="_blank"> W3 schools.</a>
+            </p>
+            <p>Link to my <a href="template.html">template file.</a></p>
+
+            <br>
+            <hr>
+            <br>
+            <h3>Lists</h3>
+            <h4>Unordered List</h4>
+            <ul>
+                <li>Milk</li>
+                <li>Bread</li>
+                <li><p>Eggs</p></li>
+                <li>Jam</li>
+            </ul>
+            <h4>Ordered List</h4>
+            <ol>
+                <li>Milk</li>
+                <li>Bread</li>
+                <li><p>Eggs</p></li>
+                <li>Jam</li>
+
+            </ol>
+        </aside>
+        <!--            <br><hr><br>-->
+        <article> <!-- element specifies independent, self-contained content. -->
+            <h3 id="lorem" class="loremp">Lorem Ipsum</h3>
+
+            <p class="loremp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam convallis ante a
+                dolor viverra, venenatis vestibulum augue vestibulum. Maecenas a erat ut risus eleifend finibus.
+                Duis scelerisque quam a nulla molestie, in tincidunt lectus sodales. Cras et tincidunt nisi.
+                Pellentesque ac enim a dui tristique venenatis nec id tortor. Sed ut facilisis nunc. Praesent eros
+                nisl, dictum quis lobortis eget, fringilla a nisl. Mauris id dignissim mi. Suspendisse convallis
+                diam eu ultrices consectetur. Nulla nunc est, commodo nec nulla quis, efficitur malesuada enim.
+                Donec suscipit imperdiet ex at venenatis. Nullam at quam sit amet orci fringilla lacinia quis eget
+                elit. Etiam nunc nisl, vestibulum sodales scelerisque in, aliquam a turpis. Aliquam non feugiat
+                tortor.</p>
+
+            <p class="loremp">Sed vestibulum lorem ligula, vitae commodo eros rutrum ut. Nunc dapibus magna sem,
+                efficitur pulvinar neque sagittis et. Maecenas rhoncus lectus elit, ac pellentesque eros efficitur
+                vitae. Suspendisse elit justo, porttitor sed neque sed, interdum tempor erat. Ut quis ligula eget
+                eros luctus rutrum. Aenean dignissim lobortis vulputate. Suspendisse suscipit orci efficitur,
+                venenatis orci et, pharetra eros. Maecenas nec lorem et libero sodales elementum sed et augue.
+                Pellentesque sagittis blandit augue, eget maximus tellus pretium et. Curabitur feugiat imperdiet
+                lectus eu consectetur. Vestibulum nunc nibh, maximus id nibh at, gravida ullamcorper sapien. Vivamus
+                elementum eros ullamcorper, ullamcorper sapien id, pellentesque mi.</p>
+
+            <p class="loremp">Aenean fringilla vestibulum massa vitae luctus. Mauris fringilla sapien risus, vel
+                hendrerit sem mattis id. Nam non consectetur risus, sed dignissim massa. Nulla lacinia ante eu est
+                porttitor, non suscipit quam fermentum. Suspendisse sollicitudin nisi ipsum, vel convallis turpis
+                rutrum non. Pellentesque id euismod sapien. Aenean dapibus sem vitae fermentum vulputate. Maecenas
+                egestas quis tortor ut pellentesque. Orci varius natoque penatibus et magnis dis parturient montes,
+                nascetur ridiculus mus.</p>
+
+            <p class="loremp">Praesent sed lacus neque. Cras volutpat et lectus quis dapibus. Vivamus at orci sit
+                amet lacus feugiat elementum eget ut ipsum. Aliquam sit amet ipsum ac lorem tristique luctus ut
+                vitae risus. Pellentesque diam velit, convallis eget mauris et, gravida aliquet risus. Praesent
+                porttitor justo magna. Donec nisi eros, ultricies in semper ut, efficitur eu tellus. Duis eget ex
+                ultricies, venenatis ipsum sed, gravida ante.</p>
+
+            <p class="loremp">Suspendisse non ullamcorper nisl. Nullam eget felis turpis. Pellentesque habitant
+                morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam vitae mi velit. Proin
+                a laoreet eros, at varius erat. Donec et odio pulvinar, dictum urna vitae, dapibus massa. Aliquam
+                lacinia ex nec libero sollicitudin fringilla. Maecenas sed dictum sem. Vivamus hendrerit fermentum
+                lacus ac interdum. Cras commodo ipsum eget eleifend efficitur. Nulla aliquam diam id sapien
+                efficitur, non tincidunt lectus venenatis. Pellentesque habitant morbi tristique senectus et netus
+                et malesuada fames ac turpis egestas.</p>
+
+            <p class="loremp">Generated 5 paragraphs, 436 words, 3029 bytes of Lorem Ipsum</p>
+
+            <p class="loremp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, nostrum!</p>
+        </article>
+        <br><hr><br>
+
+        <section id="images">
+            <h3>Images</h3>
+            <img src="assets/img/rsz_harrison-haines-7115455.jpg" alt="CN Tower">
+            <img src="assets/img/rsz_harrison-haines-7115455.jpg" alt="CN Tower" height="130" width="200">
+            <figure>
+                <img src="assets/img/directory_structure.jpg" alt="directory structure">
+                <figcaption>Directory Structure</figcaption>
+            </figure>
+        </section>
+    </main>
+    <br><hr><br>
+    <footer id="footer">
+        <p>&copy; Firstname Lastname, 2023</p>
+        <p><a class="button" href="#">Go to the top of page</a></p>
+    </footer>
+    <br><hr><br>
+</div>
+<script src="https://my.gblearn.com/js/loadscript.js"></script>
+</body>
+</html>

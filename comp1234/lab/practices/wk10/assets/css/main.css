@@ -1,0 +1,56 @@
+:root{
+    --font-color: green;
+    --font-hover-color: orange;
+}
+
+body{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    height: 100vh; /* view port height units, to stretch body as tall as the screen */
+    font-family: sans-serif;
+}
+
+.container{
+    width: 600px;
+    background-color: #ddd;
+}
+
+.form-group{
+    margin-bottom: 1.5em;
+}
+
+.form-label{
+    font-size: 1.75em;
+    color:var(--font-color);
+    display: block; /* to take label apear above input field */
+    opacity: 5; /* how much the content behind the lements in hidden */
+}
+
+.form-control::placeholder{
+    color: red;
+}
+    
+
+.form-control{
+    box-shadow: none;
+    border-radius: 0;
+    border-color: #ddd;
+    border-style: none none solid none;
+    font-size: 1.25em;
+    width: 595px;
+}
+
+.form-control:focus{
+    box-shadow: none;
+    border-color:var(--font-hover-color);
+    outline:none;
+}
+
+.btn:hover{
+    border-color: var(--font-hover-color);
+}
+
+textarea{
+    resize:none;
+}

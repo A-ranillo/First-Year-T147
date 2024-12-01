@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Week 10 Exercise</title>
+    <meta name="description" content="Week 10 Exercise.">
+    <meta name="keywords" content="Week 10 Exercise"> <!-- provides search engines a page's content -->
+    <meta name="author" content="Philip Bezalel Asher Ranillo">
+    <link href="favicon.ico" rel="shortcut icon">
+</head>
+
+<style>
+    body{
+        background-color: #f5f5f5;
+    }
+
+    fieldset{
+        background-color: #d3d3d3;
+    }
+</style>
+
+
+<body>
+<!-- HTML code goes here -->
+<fieldset>
+    <legend>Application Form</legend>
+    <div class="container">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" required><br>
+
+        <label for="Subject">Subject</label>
+        <input type="text" name="subject" id="subject" required><br>
+
+        <label for="Subject">Email</label>
+        <input type="text" name="email" id="email" required><br>
+
+        <label for="Message">Message</label>
+        <textarea name="Message" id="Message" cols="50" rows="5"></textarea><br>
+
+        <label for="date">Date</label>
+        <input type="date" name="date" id="date" min="2023-01-01"><br>
+        
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" min="12"><br>
+
+        <label for="password">Password</label>
+        <input type="text" name="password" id="password" required><br>
+
+        <div>
+            <fieldset>
+                <legend>Favorite Foods</legend>
+                <div>
+                    <input type="checkbox" name="Pizza" id="Pizza">
+                    <label for="Pizza">Pizza</label><br>
+                    
+                    <input type="checkbox" name="Hamburger" id="Hamburger">
+                    <label for="Hamburger">Hamburger</label><br>
+                    
+                </div><br>
+            </fieldset>
+                <div>
+                    <fieldset>
+                        <legend>Favorite Sports</legend>
+                        <div>  
+                            <input type="radio" name="Soccer" id="Soccer">
+                            <label for="Soccer">Soccer</label><br>
+
+                            <input type="radio" name="Volleyball" id="Volleyball">
+                            <label for="Volleyball">Volleyball</label><br>
+                        </div>
+                    </fieldset>
+                </div>
+        </div>
+
+        <div>
+            <label for="eyecolor">eyecolor</label>
+            <select name="eyecolor" id="eyecolor">
+                <option value="hazel">hazel</option>
+                <option value="brown">brown</option>
+            </select><br>
+        </div>
+
+        <div>
+            <label for="file">File</label>
+            <input type="file" id="file">
+        </div>
+
+        <div>
+            <label for="phone">Phone</label>
+            <input type="tel" name="phone" id="phone">
+        </div>
+
+        <div>
+            <label for="url">URL</label>
+            <input type="url" id="url" name="url">
+        </div>
+
+        <div>
+            <label for="color">Color</label>
+            <input type="color" name="color" id="color">
+        </div>
+    </div>
+    <div>
+        <button class="btn" type="reset">Reset</button>
+        <button class="btn" type="submit">Send Message</button>
+    </div>
+   
+</fieldset>
+
+
+<script src="https://my.gblearn.com/js/loadscript.js"></script>
+</body>
+</html>

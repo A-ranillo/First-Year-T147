@@ -1,0 +1,160 @@
+/**{*/
+/*    margin-left: 1.5em; !*Relative value*/
+/*                            16pt default font size 16*1.5=24pt*/
+/*                            h1 200% default font size 16*2*1.5=48pt*!*/
+/*    margin-left: 10px;*/
+/*}*/
+
+body{
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.loremp{
+    font-family: "Times New Roman", Times, serif;
+}
+#lorem{
+    font-size: 150%;
+    color: #0000ff;
+}
+/*h3+h4{*/
+/*    border: 1px solid red;*/
+/*}*/
+/*h4+ol{*/
+/*    border: 1px solid red;*/
+/*}*/
+h3+h4, h4+ol{
+    border: 1px solid red;
+}
+section p{
+    background-color: yellow;
+}
+section h2+p{
+    background-color: pink;
+}
+a[href="https://my.gblearn.com/"]{
+    border: 2px dotted red;
+}
+a[href="https://gblearn.com"]:hover,a[href="https://gblearn.com"]:focus{
+    border: 3px dotted red;
+}
+#lorem::first-letter{
+    font-size: 180%;
+    color: green;
+}
+ol li:first-child{
+    color: red;
+}
+ol li:last-child{
+    color: blue;
+}
+ol li:nth-child(3){
+    color: green;
+}
+header>h1{
+    font-size: 550%;
+    text-shadow: 4px 3px 4px blue;
+    color: lightcoral;
+}
+/*header{*/
+/*    font-size: 250%; !* 16 * 250% = 40pt *!*/
+/*    text-shadow: 4px 3px 4px blue;*/
+/*    color: purple;*/
+/*}*/
+#wrapper{
+    background-color: lightcyan;
+    margin: 5em auto;
+    border: 3px solid purple;
+    width: 1024px;
+}
+h2, h3, h4, h5, h6{
+    color: purple;
+    border-bottom: 2px groove ivory;
+}
+header, main, footer{
+    border: 2px solid blue;
+    padding: 1em; /* 40pt default 40 * 1 = 40 */
+    margin: 1.5em; /* 40pt default 40 * 1.5 =60 */
+}
+header{
+    text-align: center;
+    background-image: url("../img/pexels-pixabay-41006.jpg");
+    background-size: cover;
+}
+
+.button{
+    text-decoration: none;
+    border: 4px solid cornflowerblue;
+    padding: 8px;
+    border-radius: 20px;
+    background-image: linear-gradient(lightyellow, green);
+    color: bisque;
+    box-shadow: 4px 4px 6px blue;
+}
+figure{
+    overflow:auto;
+}
+figure>img{
+    width: 854px;
+    border: 10px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+aside, nav{
+    /*border: 5px solid purple;*/
+    padding: .5em;
+    margin: .25em;
+}
+nav{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+aside{
+    float: right;
+    width: 65%;
+}
+article{
+    clear:both;
+    column-count: 3;
+    column-gap: 2em;
+    column-rule: 2px groove ivory;
+}
+article>h3{
+    column-span: all;
+}
+#logo{
+    width: 100px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+header{
+    position: relative;
+}
+
+@font-face {
+    font-family: asidefont;
+    src: url("../fonts/Newsreader-Regular.ttf");
+}
+aside{
+    font-family: asidefont, serif;
+}
+header{
+    font-family: 'Ranchers', cursive;
+    background-position: center;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li a{
+    display: block;
+    padding: 8px 16px;
+    margin: 12px;
+}
+nav li a.button:hover,nav li a.button:focus{
+    border-color: white;
+    color:black;
+}

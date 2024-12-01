@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Template</title>
+    <meta name="description" content="Forms">
+    <meta name="keywords" content="Form 1"> <!-- provides search engines a page's content -->
+    <meta name="author" content="Philip Bezalel Asher Ranillo">
+    <link href="assets/img/favicon6.ico" rel="shortcut icon">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<!-- 
+    HTML forms are required when you to collect some date from site visitors.
+    e.g during user registratino you collect information such as name, address, email, credit card, etc.
+    a form takes input from the visitor and then post it to a back-send application such as ASP, CGI, PHP, etc.
+    the back-end application perform required processing on the data inside the application.
+    there are various elements available: text fields, textarea, drop-down menus, radio buttons, checkboxes, etc.
+    The HTML <form> tag is used to create an HTML form with the following syntax:
+
+        <form action = "Sript URL" method = "Get|POST">     
+        form elements like input, textare, etc.
+ -->
+<body>
+<div class="container">
+    <form action="" method="post" class="form">
+        <div  clss="form-label">
+
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required tabindex="1">
+        </div>
+
+        <div  clss="form-label">
+
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+        </div>
+
+        <div  clss="form-label">
+
+            <label for="subject" class="form-label">Subject</label>
+            <input type="text" class="form-control" name="subject" id="subject" placeholder="subject" required>
+        </div>
+
+        <div  clss="form-label">
+
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control">Enter Message...</textarea>
+        </div>
+
+        <div>
+            <button class="btn" type="reset">Reset</button>
+            <button class="btn" type="submit">Submit</button>
+        </div>
+    </form>
+</div>
+
+
+
+<script src="https://my.gblearn.com/js/loadscript.js"></script>
+</body>
+</html>

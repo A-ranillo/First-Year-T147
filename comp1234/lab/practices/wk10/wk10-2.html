@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Template</title>
+    <meta name="description" content="Forms">
+    <meta name="keywords" content="Form 1"> <!-- provides search engines a page's content -->
+    <meta name="author" content="Philip Bezalel Asher Ranillo">
+    <link href="assets/img/favicon6.ico" rel="shortcut icon">
+</head>
+
+<style>
+    body{
+        background-color: lightcyan;
+    }
+</style>
+
+<body>
+    
+    <form action="">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" value="My name is Joe">
+        </div>
+        <br>
+
+        <div>
+            <label for="Email">Email</label>
+            <input type="email" name="emai" id="Email" value="Your email" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" min="1" max="101" step="5">
+        </div>
+        <br>
+
+        <div>
+            <label for="date">Date</label>
+            <input type="date" name="date" id="date" min="2023-01-011">
+        </div>
+        <br>
+
+        <div>
+            My Favorite Fruits 
+
+            <div>
+                <label for="Banana">Banana</label>
+                <input type="checkbox" name="Banana" id="Banana">
+            </div>
+
+            <div>
+                <label for="Apples">Apples</label>
+                <input type="checkbox" name="Apples" id="Apples">
+            </div>
+
+            <div>
+                <label for="eyecolor">Eye Color</label>
+                <select id="eyecolor" multiple>
+                    <option value="Green">Green</option>
+                    <option value="Blue">Blue</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="file">File</label>
+                <input type="file" id="file">
+            </div>
+
+            <div>
+                <label for="phone">Phone</label>
+                <input type="tel" name="phone" id="phone">
+            </div>
+
+            <div>
+                <label for="url">URL</label>
+                <input type="url" id="url" name="url">
+            </div>
+
+            <div>
+                <label for="color">Color</label>
+                <input type="color" name="color" id="color">
+            </div>
+
+
+            
+        </div>
+    </form>
+
+</body>
+</html>

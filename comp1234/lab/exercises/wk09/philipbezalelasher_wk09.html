@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Template</title>
+    <meta name="description" content="This is a basic HTML template.">
+    <meta name="keywords" content="info keywords"> <!-- provides search engines a page's content -->
+    <meta name="author" content="Philip Bezalel Asher Ranillo">
+    <link href="favicon.ico" rel="shortcut icon">
+</head>
+<style>
+    body{
+        background-color: #417e7f;
+    }
+
+    table{
+        border-collapse: collapse;
+        margin: 0 auto;
+        border-top: 4px solid #ffa500;
+    }
+
+    th, td{
+        border: 1px solid black;
+        padding: 5px;
+    }
+
+    th, td{
+        text-align: center;
+    }
+
+    th, #operatingsystems1, #operatingsystems2, #totalnumber{
+        background-color: lightblue;
+    }
+
+    #student1, #student2, #totalaverage{
+        background-color: lightgray;
+    }
+
+    .grades:hover{
+        background-color: green;
+    }
+
+    #totala:hover{
+        background-color: red;
+    }
+
+    #totaln:hover{
+        background-color: yellow;
+    }
+    #totalaverage td{
+        text-align: left;
+    }
+</style>
+</head>
+    <body>
+        <table>
+            <caption>Student Marks</caption>
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Subject</th>
+                <th>Marks</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr id="student1">
+                <td rowspan="2">Hillary</td>
+                <td>Advanced Web Dev</td>
+                <td class="grades">90</td>
+            </tr>
+
+            <tr id="operatingsystems1">
+                <td>Operating Systems</td>
+                <td class="grades">75</td>
+            </tr>
+            <tr id="student2">
+                <td rowspan="2">Larry</td>
+                <td>Advanced Web Dev</td>
+                <td class="grades">91</td>
+            </tr>
+
+            <tr id="operatingsystems2">
+                <td>Operating Systems</td>
+                <td class="grades">75</td>
+            </tr>
+            </tbody>
+                <tfoot>
+                    <tr id="totalaverage">
+                        <td colspan="2">Total Average</td>
+                        <td id="totala">82.75</td>
+                    </tr>
+
+                    <tr id="totalnumber">
+                        <td colspan="2">Total Number of Students</td>
+                        <td id="totaln">2</td>
+                    </tr>
+                </tfoot>
+        </table>
+
+    <br>
+    <script src="https://my.gblearn.com/js/loadscript.js"></script>
+    </body>
+</html>
